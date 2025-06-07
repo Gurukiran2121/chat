@@ -16,6 +16,7 @@ const Router = () => {
         path="/login"
         element={!isAuthenticated ? <LoginPage /> : <Navigate to="/" />}
       />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 };
