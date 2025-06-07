@@ -1,0 +1,17 @@
+.loginPageContainer {
+  height: 100%;
+  background-image: url("../../../public/LoginBgImage.png");
+  background-size: cover;
+  background-position: center;
+
+  .loginContent {
+    height: 100%;
+    width: 100%;
+    padding: 4dvw;
+    .LoginCard {
+      padding: 2dvw;
+      border-radius: 24px;
+      border: 1px solid #d9d9d98d;
+    }
+  }
+}
